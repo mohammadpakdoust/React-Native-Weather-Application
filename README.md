@@ -1,4 +1,4 @@
-# MCDA5550 React Native Weather App
+# React Native Weather App
 
 A full-featured weather application built with React Native and Expo, displaying real-time weather, hourly forecasts, and allowing users to search and save locations. Weather data is powered by the free Open-Meteo API (no API key required).
 
