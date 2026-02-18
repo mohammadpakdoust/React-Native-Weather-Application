@@ -1,51 +1,46 @@
 {
-    "expo": {
-        "name": "MCDA5550 Weather App",
-        "slug": "mcda5550-weather-app",
-        "version": "1.0.0",
-        "orientation": "portrait",
-        "icon": "./assets/icon.png",
-        "userInterfaceStyle": "automatic",
-        "splash": {
-            "image": "./assets/splash.png",
-            "resizeMode": "contain",
-            "backgroundColor": "#1e3a8a"
-        },
-        "assetBundlePatterns": [
-            "**/*"
-        ],
-        "ios": {
-            "supportsTablet": true,
-            "bundleIdentifier": "com.mcda5550.weatherapp",
-            "infoPlist": {
-                "NSLocationWhenInUseUsageDescription": "This app needs your location to show weather information for your current area."
-            }
-        },
-        "android": {
-            "adaptiveIcon": {
-                "foregroundImage": "./assets/adaptive-icon.png",
-                "backgroundColor": "#1e3a8a"
-            },
-            "package": "com.mcda5550.weatherapp",
-            "permissions": [
-                "ACCESS_COARSE_LOCATION",
-                "ACCESS_FINE_LOCATION"
-            ]
-        },
-        "web": {
-            "favicon": "./assets/favicon.png",
-            "bundler": "metro"
-        },
-        "plugins": [
-            "expo-router",
-            [
-                "expo-location",
-                {
-                    "locationAlwaysAndWhenInUsePermission": "Allow MCDA5550 Weather App to use your location to show weather information."
-                }
-            ],
-            "expo-sqlite"
-        ],
-        "scheme": "weatherapp"
-    }
+  "expo": {
+    "name": "MCDA5550 Weather App",
+    "slug": "mcda5550-weather-app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#1e3a8a"
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.mcda5550.weatherapp",
+      "infoPlist": {
+        "NSLocationWhenInUseUsageDescription": "This app needs your location to show weather information for your current area."
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#1e3a8a"
+      },
+      "package": "com.mcda5550.weatherapp",
+      "permissions": ["ACCESS_COARSE_LOCATION", "ACCESS_FINE_LOCATION"]
+    },
+    "web": {
+      "favicon": "./assets/favicon.png",
+      "bundler": "metro"
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-location",
+        {
+          "locationAlwaysAndWhenInUsePermission": "Allow MCDA5550 Weather App to use your location to show weather information."
+        }
+      ],
+      "expo-sqlite"
+    ],
+    "scheme": "weatherapp"
+  }
 }
