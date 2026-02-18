@@ -13,7 +13,7 @@ required.
 
 | Home                          | Search                            | Saved                           |
 | ----------------------------- | --------------------------------- | ------------------------------- |
-| ![Home](screenshots/home.png) | ![Search](screenshots/search.png) | ![Saved](screenshots/saved.png) |
+| ![Home](screenshots/home.jpg) | ![Search](screenshots/search.jpg) | ![Saved](screenshots/saved.jpg) |
 
 To add screenshots:
 
